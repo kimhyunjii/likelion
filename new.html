@@ -1,0 +1,117 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+     body{background-color: rgb(99, 255, 52);}
+     #tag{background-color: rgb(251, 255, 43);}
+     #div_span div{background-color: rgb(255, 220, 226);}
+     #div_span p{background-color: wheat;}
+     #div_span {background-color: thistle;}
+    #color {
+      background-color: bisque;
+    }
+    #color .name{
+      color:brown;
+    }
+    #margin div {
+        margin: 20px;
+        box-sizing: border-box;
+        border: 2px solid green;}
+    #layout div {
+      background-color: darkblue;
+      color: azure;
+      border: 2px solid red;
+      height: 30px;
+   }
+   #layout .div1 {
+     background-color: darksalmon;
+     color: chartreuse;
+   }
+   #layout .div2 {
+     background-color: aqua;
+     color: deeppink;
+     margin: 50px;
+     border:6px solid white;
+   }
+
+  </style>
+  <body>
+    <!--
+     html - 1
+     h1, p태그를 사용해서 마크업 해보기
+    -->
+    <div id="tag">
+      <h1>h1입니다.</h1>
+      <h2>h2입니다.</h2>
+      <h3>h3입니다.</h3>
+      <h4>h4입니다.</h4>
+      <p>p태그입니다.</p>
+    </div>
+    <!--
+     html - 2, css - 1
+     p, div와 span 차이 파악하기
+     상속으로 css 작성해보기
+     background 배경해봐서 태그의 영역을 확인해보기
+   -->
+    <div id="div_span">
+      <p>p1</p>
+      <p>p1</p>
+      <div>div1</div>
+      <div>div2</div>
+      <span>span1</span>
+      <span>span2</span>
+    </div>
+    <!--
+     css - 2
+     background 변경해보기
+     border 속성 사용해 보기
+     위의 두 태그의 영역을 확인해 보기
+   -->
+    <div id="color">
+      <div class="name">
+        <span>이름</span>
+        <span>권영권</span>
+      </div>
+      <div class="major">
+        <span>학과</span>
+        <span>농업경제학과</span>
+      </div>
+      <div class="birth">
+        <span>생년월일</span>
+        <span>1993.10.15</span>
+      </div>
+    </div>
+    <!--
+     css - 3
+     margin 이용해보기
+   -->
+    <div id="margin">
+      <div>div1</div>
+      <div>div2</div>
+      <div>div3</div>
+    </div>
+    <!--
+     css - 4
+     padding 이용해보기
+    -->
+    <div id="padding">
+      <div>div1</div>
+      <div>div2</div>
+      <div>div3</div>
+    </div>
+    <!--
+     css - 5
+     width, height 사용해서
+     크기 조절 해보기
+    -->
+    <div id="layout">
+      <div class="div1">div1</div>
+      <div class="div2">div2</div>
+      <div>div3</div>
+    </div>
+  </body>
+</html>
